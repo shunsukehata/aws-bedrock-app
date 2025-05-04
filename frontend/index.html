@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お土産考察アプリ</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* 簡単なCSSをここに直接書くこともできます */
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #loading { display: none; color: gray; margin-top: 10px; }
+        #result { margin-top: 20px; border: 1px solid #ccc; padding: 15px; white-space: pre-wrap; word-wrap: break-word; }
+        button:disabled { opacity: 0.5; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>お土産考察アプリ</h1>
+
+    <form id="consult-form">
+        <div>
+            <label for="prefecture">都道府県名を入力してください:</label>
+            <input type="text" id="prefecture" name="prefecture" required>
+        </div>
+        <button type="submit"> Bedrock に聞く</button>
+    </form>
+
+    <div id="loading">思考中です...</div>
+    <div id="result"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

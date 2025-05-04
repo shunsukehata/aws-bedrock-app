@@ -1,0 +1,56 @@
+/* style.css の例 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+}
+
+#consult-form div {
+    margin-bottom: 15px;
+}
+
+#consult-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#consult-form input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#consult-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#consult-form button:hover {
+    background-color: #0056b3;
+}
+
+#loading {
+    display: none; /* 初期状態では非表示 */
+    color: gray;
+    margin-top: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    white-space: pre-wrap; /* 改行を保持 */
+    word-wrap: break-word; /* 長い単語の折り返し */
+    border-radius: 4px;
+}

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/ # 仮想環境のディレクトリ
+
+# Lambda deployment package
+*.zip # デプロイ用のzipファイル
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE specific files
+.vscode/
+
+# AWS specific files
+.aws/credentials
+.aws/config

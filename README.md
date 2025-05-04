@@ -29,7 +29,7 @@
 
 ## アーキテクチャ概念図
 
-![アーキテクチャ図](docs/architecture-diagram.drawio)
+![アーキテクチャ図](https://github.com/shunsukehata/aws-bedrock-app/blob/master/docs/SouvenirSurvey.drawio)
 
 ## 扱い方
 このアプリケーションは、以下の CloudFront URL にアクセスすることで利用できます。
